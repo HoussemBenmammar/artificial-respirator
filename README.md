@@ -1,0 +1,3 @@
+# About Respirateur Frontend
+
+This scope statement is a part of the project titled “conception and realization of an artificial ventilator”. In this part, we focus on the graphic user interface, for which the role is to allow the user to control and monitor the patient ventilation from its beginning until the weaning while at the same time avoiding any type of hazardous reactions.In addition, the user interface allows the self-checking of the ventilator and the calibration of the sensors. 
