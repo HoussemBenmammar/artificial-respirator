@@ -1,3 +1,13 @@
-# About Respirateur Frontend
+# About System test
 
-This scope statement is a part of the project titled “conception and realization of an artificial ventilator”. In this part, we focus on the graphic user interface, for which the role is to allow the user to control and monitor the patient ventilation from its beginning until the weaning while at the same time avoiding any type of hazardous reactions.In addition, the user interface allows the self-checking of the ventilator and the calibration of the sensors. 
+The system test phase starts automatically after the ventilator is powered on. The user has to choose whether to perform or bypass the tests. The user should flow the test protocol indicated by
+
+1. First, the following message is shown:
+   “Make sure that no patient is connected during the system test
+   Prepare the device, close the y-piece”
+2. After starting the test, the message “System test running” is shown and a progress bar indicates the evolution.
+3. In the end, a message shows the results of the test as follows:
+   “System test OK.
+   Compliance: 0.8 [ml/cmH2O]
+   Resistance: 2.0 [cmH2O/(l/s)]
+   Leakage: 11 [ml/min].”
