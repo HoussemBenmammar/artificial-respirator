@@ -1,0 +1,7 @@
+[
+  {
+    "compliance": "0.8 [ml/cmH2O]",
+    "resistance": "2.0 [cmH2O/(l/s)]",
+    "Leakage": "11 [ml/min]"
+  }
+]
