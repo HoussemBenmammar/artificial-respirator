@@ -21,8 +21,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>-10</y>
+      <x>290</x>
+      <y>0</y>
       <width>611</width>
       <height>71</height>
      </rect>
@@ -49,8 +49,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>60</y>
+      <x>280</x>
+      <y>70</y>
       <width>481</width>
       <height>71</height>
      </rect>
@@ -187,7 +187,7 @@ background-color:#607D8B</string>
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>500</y>
+      <y>520</y>
       <width>251</width>
       <height>61</height>
      </rect>
@@ -385,7 +385,7 @@ background-color:#607D8B</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>420</x>
       <y>0</y>
       <width>481</width>
       <height>71</height>
@@ -416,7 +416,7 @@ background-color:#607D8B</string>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>610</x>
+      <x>430</x>
       <y>180</y>
       <width>481</width>
       <height>71</height>
@@ -447,7 +447,7 @@ background-color:#607D8B</string>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>430</x>
       <y>90</y>
       <width>481</width>
       <height>71</height>
@@ -478,8 +478,8 @@ background-color:#607D8B</string>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>600</x>
-      <y>280</y>
+      <x>420</x>
+      <y>270</y>
       <width>481</width>
       <height>71</height>
      </rect>
@@ -498,6 +498,37 @@ background-color:#607D8B</string>
     </property>
     <property name="text">
      <string>Leakage: 11 [ml/min].”</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>0</y>
+      <width>481</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:
+#E1F5FE</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string>Open Y-connector</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
