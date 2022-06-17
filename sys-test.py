@@ -10,6 +10,8 @@
 import time
 import json
 from PyQt5 import QtCore, QtGui, QtWidgets
+import os 
+
 
 # Opening JSON file
 f = open('sys-test.json',)
@@ -276,6 +278,8 @@ class Ui_MainWindow(object):
         self.label_6.setText("Resistance: " + data[0]['resistance'] + "cmH2O/(l/s)")
         self.label_7.setText("Compliance: " + data[0]['compliance'] + "ml/cmH2O")
         self.label_8.setText("Leakage: " + data[0]['Leakage'] + "ml/min")
+        #time.sleep(8)
+        #os.system('standby.py')
         
         
         
